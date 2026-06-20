@@ -1,0 +1,51 @@
+# ==========================================
+# Java Bytecode & Build Artifacts
+# ==========================================
+*.class
+*.log
+*.jar
+!lib/*.jar
+
+# ==========================================
+# Tunneling, Webhooks & Environment Binaries
+# ==========================================
+ngrok.exe
+.ngrok/
+ngrok.log
+*.env
+config.properties
+
+# ==========================================
+# IntelliJ IDEA IDE Files
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==========================================
+# Eclipse IDE Files
+# ==========================================
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+
+# ==========================================
+# NetBeans IDE Files
+# ==========================================
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ==========================================
+# Operating System Junk Files
+# ==========================================
+Thumbs.db
+Desktop.ini
+.DS_Store
