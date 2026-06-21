@@ -147,8 +147,6 @@ AI-Deal-Sniper/
 │   ├── NotificationService.java
 │   └── Utils.java
 │
-├── assets/
-│
 ├── README.md
 │
 ├── LICENSE
